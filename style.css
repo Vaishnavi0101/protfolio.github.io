@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(2, 2, 53);
+
+    font-family: 'Oswald', sans-serif;
+    height: auto;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.main {
+    /* background-color: rgb(240, 33, 171); */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.VaishnaviInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.Hello {
+    font-size: 65px;
+
+}
+
+.me {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.about {
+    font-size: 40px;
+
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.btn {
+    padding: 10px 19px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0px;
+
+}
+
+.btn :hover {
+    background-color: white;
+    color: dodgerblue;
+
+
+}
+
+.contactform {
+    padding: 0 34 px;
+    margin: 0 88px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 0;
+    margin: 0 120px;
+
+
+}
+
+.contactform form div {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 120px;
+}
+
+.contactform form div input {
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 20px;
+    margin: 3px 0;
+}
+
+.educontainer {
+    padding: 0 50px;
+    margin: 0px 88px;
+    /* background-color: rgb(40, 66, 66); */
+}
+
+.educontainer h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 0;
+    margin: 0 88px;
+}
+
+.educontainer div {
+    margin: 0 88px;
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutmecontainer {
+    padding: 0 20px;
+    margin: 40px 88px;
+}
+
+.aboutme h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 0;
+    margin: 0px 120px;
+}
+
+.aboutme div {
+    margin: 50px 120px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.skills {
+    background-color: rgb(111, 111, 134);
+}
+
+.skillscontainer {
+    padding: 0 20px;
+    margin: 40px 88px;
+}
+
+.skillscontainer h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 12px 0;
+    margin: 0px 120px;
+}
+
+.skillitems {
+    display: flex;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    padding: 10px 0;
+    margin: 0 120px;
+
+}
+
+.skills {
+    width: 265px;
+    height: 6px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ninty {
+    width: 265px;
+}
+
+.eightyfive {
+    width: 125px;
+}
+
+.t5 {
+    width: 75px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+.hamberger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-right: 155px;
+}
+
+@media(max-width:1000px) {
+
+    *{
+     background-color:  rgb(199, 118, 31); 
+    }
+    .sidebar {
+        transform: translate(0px, 0px);
+        position: relative;
+    }
+
+    .aboutme,
+    .educontainer,
+    .contactform {
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
