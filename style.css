@@ -7,8 +7,8 @@
 }
 
 .sidebar {
-    background-color: rgb(2, 2, 53);
-
+    background-color: rgb(150, 150, 161);
+    position:absolute;
     font-family: 'Oswald', sans-serif;
     height: auto;
     transition: transform 0.3s ease-in;
@@ -16,26 +16,27 @@
 
 .sidebar nav {
     padding: 45px;
-
+    background-color: rgb(228, 225, 220);
 }
 
 .sidebar nav li {
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
-
+    background-color: rgb(228, 225, 220);
 
 }
 
 .sidebar nav li a {
     text-decoration: none;
-    color: blue;
+     color: rgb(196, 196, 209);
+    background-color: rgb(228, 225, 220);
 }
 
-.main {
+/* .main { */
     /* background-color: rgb(240, 33, 171); */
-    width: 90vw;
-}
+/*     width: 90vw; */
+/* } */
 
 .container {
     display: flex;
@@ -60,30 +61,30 @@
 }
 
 .Hello {
-    font-size: 65px;
+    font-size: 3em;
 
 }
 
 .me {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 
 }
 
 .about {
-    font-size: 40px;
+    font-size: 2.5em;
 
 }
 
 .moreabout {
-    font-size: 22px;
-    margin-top: 22px;
+    font-size: 2em;
+    margin-top: 23px;
     font-family: 'Oswald', sans-serif;
 }
 
 .buttons {
-    margin-top: 34px;
+    margin-top: 2.2em;
 
 }
 
@@ -96,13 +97,13 @@
 
     margin: 12px 0;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 2em;
 }
 
 .btn-sm {
     font-size: 14px;
     padding: 10px 19px;
-    margin: 12px 0px;
+    margin: 12px 120px;
 
 }
 
@@ -112,17 +113,35 @@
 
 
 }
+.vaishupic{
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    /* bottom: 0; */
+    right: 100px;
+    
+}
+.vaishupic img{
+    height:  80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* padding-bottom: 80px; */
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
 
 .contactform {
-    padding: 0 34 px;
-    margin: 0 88px;
+    padding: 40px 20 px;
+    margin: 40px 88px;
     font-family: 'Oswald', sans-serif;
 }
 
 .contactform h1 {
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
-    padding: 12px 0;
+/*     padding: 12px 0; */
     margin: 0 120px;
 
 
@@ -136,10 +155,11 @@
 }
 
 .contactform form div input {
-    width: 30vw;
+/*     width: 30vw; */
     border-radius: 5px;
-    margin: 6px 0 0 0;
+    margin: 6px 0 0 12px;
     padding: 3px;
+    box-sizing: border-box;
 }
 
 .contactform form {
@@ -149,7 +169,7 @@
 #emailHelp {
     font-size: 11px;
     color: midnightblue;
-    margin: 0 5px;
+    margin: 15px 5px;
     padding: 3px 0 0 0;
 }
 
@@ -164,8 +184,8 @@
 }
 
 .educontainer {
-    padding: 0 50px;
-    margin: 0px 88px;
+    padding: 40px  20px;
+    margin: 40px 88px;
     /* background-color: rgb(40, 66, 66); */
 }
 
@@ -173,17 +193,17 @@
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
     padding: 12px 0;
-    margin: 0 88px;
+    margin: 0 30px;
 }
 
 .educontainer div {
     margin: 0 88px;
-    padding: 10px 0;
+    padding: 10px 50px;
     font-family: 'Oswald', sans-serif;
 }
 
 .aboutmecontainer {
-    padding: 0 20px;
+    padding: 40px 20px;
     margin: 40px 88px;
 }
 
@@ -205,7 +225,7 @@
 }
 
 .skillscontainer {
-    padding: 0 20px;
+    padding: 40px 20px;
     margin: 40px 88px;
 }
 
@@ -266,17 +286,24 @@
 }
 
 .cross {
-    margin-right: 155px;
+   margin-left: -24px;
+    margin-top: 10px;
 }
 
 @media(max-width:1000px) {
 
     *{
-     background-color:  rgb(199, 118, 31); 
+     background-color:  rgb(11, 83, 89); 
     }
-    .sidebar {
-        transform: translate(0px, 0px);
-        position: relative;
+/*     .sidebar { */
+/*         transform: translate(0px, 0px); */
+/*         position: relative; */
+/*     } */
+     .buttons{
+        font-size: 6px;
+    }
+    .VaishnaviInfo{
+        font-size: 10px;
     }
 
     .aboutme,
