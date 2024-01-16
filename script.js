@@ -7,8 +7,10 @@ document.querySelector('.hamburger').addEventListener("click", ()=>{
         document.querySelector('.cross').style.display = 'none'
     }
     else{
+    document.querySelector('.ham').style.display = 'none'
+       setTimeout(()=>(
         document.querySelector('.cross').style.display = 'inline'
-        document.querySelector('.ham').style.display = 'none'
+     ),300);
     }
  
     
